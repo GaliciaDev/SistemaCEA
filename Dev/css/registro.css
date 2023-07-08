@@ -1,0 +1,68 @@
+.registro {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .registro input[type="text"],
+  .registro input[type="email"],
+  .registro input[type="password"],
+  .registro input[type="date"],
+  .registro input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btnlimpiar {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btnlimpiar :hover {
+    background-color: #0056b3;
+  }
+  
+  .btnsalir {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF3838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btnsalir :hover {
+    background-color: #FF0000;
+  }
+  
+  .btnguardar {
+    width: 100%;
+    padding: 10px;
+    background-color: #39ED15;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btnguardar :hover {
+    background-color: #157C00;
+  }

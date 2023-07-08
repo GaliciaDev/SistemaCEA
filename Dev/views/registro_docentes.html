@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/registro.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="shortcut icon" href="img/icon.png">
+        <title>Formulario</title>
+    </head>
+<body>
+    <form class="registro" action="recibir_datos_docentes.php" method="post" id="registro_docente" name="Contacto">
+        <h4>Registro de Docentes</h4>
+        <label>Nombre: </label>
+            <input class="reg" autofocusu type="text" name="Nombre" placeholder="Introduzca su Nombre"><br><br>
+        <label>Apellido Paterno:</label>
+            <input class="reg" autofocusu type="text" name="ApellidoP" placeholder="Apellido Paterno"><br><br>
+        <label>Apellido Materno: </label>
+            <input class="reg" autofocusu type="text" name="ApellidoM" placeholder="Apellido Materno"><br><br>
+        <label>Edad: </label>
+            <input class="edad" type="number" name="edad" min="11" max="99" required><br><br>
+        <label>Telefono Particular:</label>
+            <input class="reg" type="number" name="telefono"placeholder="10 Digitos" min="10" required><br><br>
+        <label> Dirrecion: </label>
+        <input class="reg" type="text" name="direccion" placeholder="Donde Vive" required><br><br>
+        <label class="Etiquetas">Genero:</label><br>
+            Hombre:
+            <input class="genero" type="radio" name="Sexo" value="Hombre">
+            Mujer:
+            <input class="genero" type="radio" name="Sexo" value="Mujer"><br><br>
+        <label>Cargo:</label>            
+        <select class="reg" name="seleccion_cargo">
+            <option value="opcion">Elija una Opcion</option>
+            <option value="Docente">Docente</option>
+            <option value="Coordinacion">Coordinacion</option>
+            <option value="Secretaria">Secretaria</option>
+            <option value="Prefecto">Prefecto</option>
+            <option value="Administrativo">Administrativo</option>
+        </select><br><br>
+        <label>Correo ELectronico:</label>
+            <input class="reg" type="text" name="correo" placeholder="Ejemplo@example.com" required class="formulario"><br><br>
+        <label>Area: </label>
+        <select class="reg" name="seleccion_cargo">
+            <option value="opcion">Elija una Opcion</option>
+            <option value="Docente">Ciencias Administrativas</option>
+            <option value="Coordinacion">Control Escolar</option>
+            <option value="Secretaria">Nose</option>            
+        </select><br><br>
+        <label class="Etiquetas">Fecha de Nacimiento:</label>
+            <input type="date" name="FechaNac" class="CajasL" required><br><br>
+        <label> Telefono Emergencia:</label>
+            <input class="reg" type="number" name="telefono"placeholder="10 Digitos" min="10" required><br><br>
+        <label class="formulario">Password:</label>
+            <input class="reg" type="password" name="Pass" class="formulario" id="CajaPass"><br>     
+        <label class="formulario">Confirmar Password:</label><br>
+            <input class="reg" type="password" name="PassC" class="formulario" id="CajaPass"><br><br>
+        <input class="btnlimpiar" name="Limpiar" type="reset" id="btnResetear" value="Limpiar"><br><br>
+        <input class="btnsalir" name="Salir" type="button" id="btnSalir" value="Salir"><br><br>
+        <input class="btnguardar" name="Enviar" type="submit" id="btnEnviar" value="Guardar"><br>  
+    </form>
+</body>
+    <footer>
+        <p>&copy; 2023 SAGA.</p>
+        <p>Contáctanos: info@example.com</p>
+    </footer>
+</html>
